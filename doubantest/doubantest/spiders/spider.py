@@ -9,5 +9,3 @@ class Douban(CrawlSpider):
     def parse(self,response):
         print response.body
         print response.url
-        a = response.url
-        b = 1
